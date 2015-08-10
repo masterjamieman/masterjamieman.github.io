@@ -1,0 +1,28 @@
+h1{
+	color:#56f;
+}
+
+li{
+background-color: #c0e5b8
+}
+body{
+background-color: red;
+width:600px;
+margin: 0 auto;
+max-width: 600px;
+	font-size: 25px
+}
+ul{
+	padding: 50px;
+	background-color: gold;
+	margin:0 auto;
+	font-size: 2em;
+}
+img{
+	max-width: 10em;
+}
+
+#orange{
+	background-color: #da971b;
+}
+
