@@ -211,7 +211,7 @@ var Player = function(){
 	this.movingRight = false;
 	this.speed = 8;
 	this.invincible = false;
-	this.color = "white";
+	this.color = "orange";
 };
 
 
