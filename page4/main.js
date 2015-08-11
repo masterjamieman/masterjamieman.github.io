@@ -91,7 +91,7 @@ var Player = function() {
   };
 
   this.jumpHigh = function() {
-    this.vy = -10000000000000;
+    this.vy = -90;
   };
 
 };
@@ -252,6 +252,8 @@ function init() {
       } else if (key == 39) {
         dir = "right";
         player.isMovingRight = true;
+      }else if (key==38){
+        player.vy=-20;
       }
       
       if(key == 32) {
