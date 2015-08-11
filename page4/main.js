@@ -91,7 +91,7 @@ var Player = function() {
   };
 
   this.jumpHigh = function() {
-    this.vy = -100;
+    this.vy = -10000000000000;
   };
 
 };
